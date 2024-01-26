@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0px;
+    overflow-x: hidden;
+    cursor: url(Sandwich.png), auto;
+    background-color: #f2f2f2;
+}
+
+.img{
+    height: 100vh;
+    background-image: url(https://i.redd.it/hvlgus80utd51.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f2f2f2;
+    padding: 1em;
+}
+.img a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+/*nav bar*/
+nav{
+    margin: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #270c20;
+}
+  
+li {
+  float: left;
+  margin: 0%;
+}
+.home{
+    background-color: #005F73;
+}
+.right{
+    float: right;
+}
+.right img{
+    height: 2em;
+    padding: 0;
+    border-radius: 2px;
+    margin-top: 0.4em;
+    margin-right: 0.5em;
+}
+.right a{
+    padding: 0%;
+}
+
+li a {
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+li a:hover {
+  background-color: #f2f2f2;
+  color: #252424;
+}
+
+.right a:hover{
+    background-color: #270c20;
+}
+
+
+
+
+
+
+.wrapper-s{
+    margin: 0%;
+    width: 100vw;
+    background-image: url(https://assets.website-files.com/5dbaec16f510ee7b1c0004d6/5dcc6e3a8cfd6631cbf66546_grey-s-wave-top-wide.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #270c20;
+    background-position-y: 2em;
+
+
+    
+}
+.wrapper-s img{
+    height: 35vh;
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0em;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.previusProjects h1{
+    font-size: 3em;
+    margin: 0%;
+}
+
+.previusProjects a{
+    text-decoration-color: black;
+    color: black;
+    text-decoration-line: underline;
+}   
+
+.galleri{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.galleri img{
+    height: 60vh;
+    width: auto;
+    border: solid black 2px;
+}
+
+
+
+
+
+
+
+.experience{
+    color: #f2f2f2;
+    margin: 2em 0;
+    padding: 2em;
+    background-image: url(https://assets.website-files.com/5dbaec16f510ee7b1c0004d6/5dce36ec792b96a2e7b40d11_contact-bg-blue.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+}
+
+.experience h1{
+    padding-top: 1.3em;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#subt{
+    margin: 0.5em;
+}
+
+#subt a{
+    color: #f2f2f2;
+}
+
+.bread{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+
+.bread button{
+    border: solid black 1px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 3px 3px black;
+    min-height: 30px;
+    margin-top: 1em;
+}
+
+.bread button:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* Fotter for kontakt info*/
+.footer-s{
+    background-image: url(https://assets.website-files.com/5dbaec16f510ee7b1c0004d6/5dcc6521881da452dbe6e7d1_footer-wave-nice.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 25vh;
+}
+
+footer{
+    background-color: #19057a;
+    color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+    padding: 1em;
+    padding-bottom: 10vh;
+}
+
+footer div div{
+    border-left: solid lightseagreen 1px;
+    padding: 1em;
+    font-size: 1.2em;
+}
