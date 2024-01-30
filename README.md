@@ -4,10 +4,11 @@ My personal portfolio projeckt
 # Description
 This is my School coding projeckt were i was instucted to make a personal portfolio using html and css
 
-# Code inspoasjons
+# Code inspirasjon
 Here are some sites or people who helped me with coding
 1. https://www.codingninjas.com/studio/library/image-hover-effects-in-css
-This helped me figure how to make hover effects for imgs
+
+   This helped me figure how to make hover effects for imgs
    ```html
    <!DOCTYPE html>
    <html lang="en">
@@ -53,10 +54,29 @@ This helped me figure how to make hover effects for imgs
     </body>
     </html>
    ```
-2. bllz
+2. https://mediekollega.no/portfolio-tips-slik-lager-du-en-god-portfolio/
+
+   This site gave me my inspirasjon for my footer
 
 # Pitcure and assets sources
 A list of sites i took assest or pitures from
-1. https://www.clade.design
-2. f
+1. https://www.clade.design 
 
+   I got the blue-s, light-blue-s and white-s assets from this site
+
+2. https://looka.com/editor/168751964
+
+   I got my logo from this site
+
+3. https://www.reddit.com/r/PixelArt/comments/i043k3/city_landscape/
+
+   I gott the pixel art city from this artist on reddit
+
+4. https://wallpapers.com/pixel-art-background
+
+   I got the rest of my pixel art from this site
+
+# Sites and videos that help me make this README file
+1. https://www.makeareadme.com
+2. https://github.com/larymak/Python-project-Scripts?tab=GPL-3.0-1-ov-file
+3. https://www.youtube.com/watch?v=mb9FJzkwmwg
