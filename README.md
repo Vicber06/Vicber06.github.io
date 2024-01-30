@@ -80,3 +80,7 @@ A list of sites i took assest or pitures from
 1. https://www.makeareadme.com
 2. https://github.com/larymak/Python-project-Scripts?tab=GPL-3.0-1-ov-file
 3. https://www.youtube.com/watch?v=mb9FJzkwmwg
+
+# Notes about the project or code
+* Manny links or files are not done or made (like the Cv) this is because it wasn't necessary for the project, i didn't have time or iwas just lazy
+* The site may not work with every aspect ratio, it is only optimised for my pc and certen phones
