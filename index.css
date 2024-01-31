@@ -113,6 +113,10 @@ li button:hover{
 button:active{
     opacity: 0.8;
 }
+#closeModal{
+    background-color: #f2f2f2;
+    color: #270c20;
+}
 
 .modal-inner{
     background-color: #f2f2f2;
@@ -352,6 +356,9 @@ footer div div{
 @media(orientation: portrait){
     .wrapper-s{
         width: 100vw;
+    }
+    li button{
+        display: none;
     }
     .galleri{
         flex-direction: column;

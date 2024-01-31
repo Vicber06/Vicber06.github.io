@@ -45,6 +45,65 @@ li {
   margin: 0%;
 }
 
+li button{
+    margin: 0;
+    background-color: #00f6ff;
+    border-radius: 20px;
+    border: 0;
+    color: #19057a;
+    cursor: pointer;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+li button:hover{
+    color: black;
+    background-color: #f2f2f2;
+}
+button:active{
+    opacity: 0.8;
+}
+#closeModal{
+    background-color: #f2f2f2;
+    color: #270c20;
+}
+
+.modal-inner{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: solid black 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+}
+.modal-inner h2{
+    margin: 0%;
+}
+
+.modal-inner p{
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.modal{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -999;
+
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open{
+    opacity: 1;
+    z-index: 999;
+}
 
 
 
@@ -172,6 +231,9 @@ footer div div{
 
 /*Mobil*/
 @media(orientation: portrait){
+    li button{
+        display: none;
+    }
     .wrapper-s{
         width: 100vw;
     }
