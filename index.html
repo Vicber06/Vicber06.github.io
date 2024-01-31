@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -14,11 +14,21 @@
 
     <nav>
         <ul>
-            <li class="home"><a href="https://www.w3schools.com/css/css_navbar.asp">Home</a></li>
-            <li><a href="https://www.w3schools.com/css/css_navbar.asp">About</a></li>
-            <li><a href="https://www.w3schools.com/css/css_navbar.asp">Projects</a></li>
-            <li><a href="https://www.w3schools.com/css/css_navbar.asp">Contact us</a></li>
-            <li class="right"><a href="https://www.w3schools.com/css/css_navbar.asp"><img src="LOGO.png" alt="logo"></a></li>
+            <li class="home"><a href="http://127.0.0.1:5500/IT1/Chapter4/4D/index.html">Home</a></li>
+            <li class="projects"><a href="http://127.0.0.1:5500/IT1/Chapter4/4D/previusProjects.html">Projects</a></li>
+            <li class="contact"><a href="https://github.com/Vicber06">Github</a></li>
+            <li>
+                <a href=""><button id="openModal">Contact info</button></a>
+
+                <div class="modal" id="modal">
+                    <div class="modal-inner">
+                        <h2>Contact info</h2>
+                        <p>fem</p>
+                        <button id="closeModal">Close</button>
+                    </div>
+                </div>
+            </li>
+            <li class="right"><a href=""><img src="Images/LOGO.png" alt="logo"></a></li>
         </ul>
     </nav>
 
@@ -30,33 +40,33 @@
 
         <div class="previusProjects">
             <h1>Previus Projects</h1>
-            <h2><a href="https://mediekollega.no/portfolio-tips-slik-lager-du-en-god-portfolio/">This way for more <i class='bx bx-chevrons-right'></i></a></h2>
+            <h2><a href="http://127.0.0.1:5500/IT1/Chapter4/4D/previusProjects.html">This way for more <i class='bx bx-chevrons-right'></i></a></h2>
             <div class="galleri">
-                <img class="gall1" src="galleri_1.png" alt="abstract art">
-                <img class="gall2" src="galleri_2.png" alt="html code">
-                <img class="gall3" src="galleri_3.png" alt="css code">
+                <img class="gall1" src="Images/galleri_1.png" alt="abstract art">
+                <img class="gall2" src="Images/galleri_2.png" alt="html code">
+                <img class="gall3" src="Images/galleri_3.png" alt="css code">
             </div>
         </div>
         
 
         <div class="experience">
             <h1>Experience</h1>
-            <h2 id="subt"><a href="https://mediekollega.no/portfolio-tips-slik-lager-du-en-god-portfolio/">Jobbs, Cvs and more!<i class='bx bx-chevrons-right'></i></a></h2>
+            <h2 id="subt">Jobbs, Cv and more!<i class='bx bx-chevrons-right'></i></h2>
             <div class="bread">
                 <div class="CVS">
-                    <h2>CVS<i class='bx bx-note'></i></h3>
+                    <h2>CV<i class='bx bx-note'></i></h2>
                     <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure aut quo commodi blanditiis natus vitae, adipisci nobis. Quia molestiae magnam autem tempora repellat, sint sed. Doloribus earum sed ipsum possimus!</div>
-                    <a href="https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/"><button>Let's go!</button></a>
+                    <a href="https://vikenfk-my.sharepoint.com/:w:/r/personal/victorber_viken_no/Documents/Nuh%20uh.docx?d=w193e2f5b943d4bb98c16a8220ce18541&csf=1&web=1&e=gFiGfc" target="_blank"><button>Let's go!</button></a>
                 </div>
                 <div class="school">
-                    <h2>School<i class='bx bxs-school'></i></h3>
+                    <h2>School<i class='bx bxs-school'></i></h2>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut asperiores ipsum porro. Amet maxime accusamus nisi soluta reiciendis illum exercitationem unde saepe eaque eligendi, vero, nulla quaerat maiores expedita sint.</div>
-                    <a href=""><button>Let's go!</button></a>
+                    <a href="https://afk.no/lillestrom-vgs/" target="_blank"><button>Let's go!</button></a>
                 </div>
                 <div class="refe">
-                    <h2>References<i class='bx bx-chat' ></i></h3>
+                    <h2>References<i class='bx bx-chat' ></i></h2>
                     <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel veritatis doloribus, nesciunt a sequi voluptatum! Debitis nemo assumenda sapiente suscipit? Magnam inventore molestiae officiis voluptatibus deserunt natus quia ullam vel?</div>
-                    <a href=""><button>Let's go!</button></a>
+                    <a href="" target="_blank"><button>Let's go!</button></a>
                 </div>
             </div>
         </div>
@@ -65,11 +75,35 @@
     <div class="me">
         <h1>Me, myself and I</h1>
         <h2>Family, interests and more?</h2>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <div class="family">
+            <div class="container" id="fam1">
+                <a href="http://127.0.0.1:5500/IT1/Chapter4/4D/about.html"><img src="https://i.etsystatic.com/23032371/r/il/2cf2ca/4337929119/il_fullxfull.4337929119_si67.jpg" alt="dog"></a>
+                <div class="t">
+                    <h2>My dog</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, vitae, eum dicta cumque dolorum tempora saepe a, sed culpa officiis cum earum atque. Incidunt fugit pariatur nesciunt, eos facere officia.</p>
+                </div>
+            </div>
+            <div class="container" id="fam2">
+                <a href="http://127.0.0.1:5500/IT1/Chapter4/4D/about.html"><img src="https://thumbs.dreamstime.com/b/vertical-oil-painting-mom-son-family-fly-space-cosmos-fantastic-oil-painting-fantasy-concept-art-woman-child-family-195413413.jpg" alt="family"></a>
+                <div class="t">
+                    <h2>My family</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aut et in modi eveniet commodi eligendi molestiae dolorem aperiam officiis odit ab sed hic eos quisquam, suscipit nesciunt quae expedita!</p>
+                </div>
+            </div>
+            <div class="container" id="fam3">
+                <a href="http://127.0.0.1:5500/IT1/Chapter4/4D/about.html"><img src="https://st.hzcdn.com/simgs/pictures/exteriors/18th-ave-city-homes-unit-c-mb-architecture-interiors-img~f8e1811b02588d32_14-2803-1-100fee4.jpg" alt="house"></a>
+                <div class="t">
+                    <h2>My house</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ducimus nisi sed quo repellat voluptas totam voluptatem quos fugiat, maxime iusto, cumque autem molestias delectus laboriosam! Tempora modi maxime temporibus?</p>
+                </div>
+            </div>
+            <div class="container" id="fam4">
+                <a href="http://127.0.0.1:5500/IT1/Chapter4/4D/about.html"><img src="https://media.nga.gov/iiif/54fa40e9-4d71-4a32-9e75-77977152009c/full/!588,600/0/default.jpg" alt="person"></a>
+                <div class="t">
+                    <h2>Me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta harum architecto, dolorem repellat deleniti numquam tempore minus! Blanditiis quas consequuntur consectetur aspernatur officiis accusamus, temporibus a labore, voluptas est doloremque.</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -79,22 +113,21 @@
 
     <footer>
         <div class="code">
-            <div id="html"><i class='bx bxs-file-html' ></i> Html code </div>
-            <div id="css"><i class='bx bxs-file-css' ></i> Css code </div>
-            <div id="js"><i class='bx bxs-file-js' ></i> JavaScript code </div>
+            <div id="html"><a href="https://github.com/Vicber06/Vicber06.github.io/blob/main/index.html"><i class='bx bxs-file-html' ></i> Html code </div></a>
+            <div id="css"><a href="https://github.com/Vicber06/Vicber06.github.io/blob/main/index.css"><i class='bx bxs-file-css' ></i> Css code </div></a>
+            <div id="js"><a href="https://github.com/Vicber06/Vicber06.github.io/blob/main/index.js"><i class='bx bxs-file-js' ></i> JavaScript code </div></a>
         </div>
         <div class="social">
-            <div id="facebook"><i class='bx bxl-facebook-circle' ></i> Facebook </div>
-            <div id="teams"><i class='bx bxl-microsoft-teams' ></i> Teams </div>
-            <div id="discord"><i class='bx bxl-discord' ></i> Discord </div>
+            <div id="facebook"><a href=""><i class='bx bxl-facebook-circle' ></i> Facebook </div></a>
+            <div id="teams"><a href=""><i class='bx bxl-microsoft-teams' ></i> Teams </div></a>
+            <div id="discord"><a href=""><i class='bx bxl-discord' ></i> Discord </div></a>
         </div>
         <div class="contact">
             <div id="nummer">+47 400 51 632 </div>
             <div id="mail">vicber06@outlook.com</div>
-            <div id="addresse">stormyvegen 7, 2006 Rælingen</div>
+            <div id="addresse">myRealAdress 69, 6969 Fortnight</div>
         </div>
     </footer>
-
     <script src="index.js"></script>
 </body>
 </html>
