@@ -88,4 +88,4 @@ A list of sites i took assest or pitures from
 # Notes about the project or code
 * Manny links or files are not done or made (like the Cv) this is because it wasn't necessary for the project, i didn't have time or i was just lazy
 * The site may not work with every aspect ratio, it is only optimised for my pc and certen phones (Iohone SE)
-* 
+* The site is only tested with opera gx and no other browser
