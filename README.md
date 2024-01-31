@@ -58,6 +58,10 @@ Here are some sites or people who helped me with coding
 
    This site gave me my inspirasjon for my footer
 
+3. https://www.youtube.com/watch?v=r_PL0K2fGkY
+
+   This help me with js
+
 # Pitcure and assets sources
 A list of sites i took assest or pitures from
 1. https://www.clade.design 
