@@ -1,6 +1,9 @@
 # Vicber06.github.io
 My personal portfolio projeckt
 
+# Link 2 page
+http://127.0.0.1:5500/IT1/Chapter4/4D/index.html
+
 # Description
 This is my School coding projeckt were i was instucted to make a personal portfolio using html and css
 
@@ -79,6 +82,10 @@ A list of sites i took assest or pitures from
 4. https://wallpapers.com/pixel-art-background
 
    I got the rest of my pixel art from this site
+
+5. https://boxicons.com/?query=
+
+   I got icons from thi site
 
 # Sites and videos that help me make this README file
 1. https://www.makeareadme.com
